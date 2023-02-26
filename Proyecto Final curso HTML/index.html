@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Federico A. Buriek">
+    <meta name="description" content="Proyecto Final Integrador del curso Front-End de Ticmas Academy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico">
+    <title>Proyecto Final - CV</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="javascripts/acciones.js"></script>
+</head>
+<body>
+  <header>
+    <h2>Currículum Vitae</h2>
+  </header>
+  
+  <section id="cabecera">
+    <picture>
+      <p><img src="imagenes/149071.png" title="Foto de perfil" alt="Foto de perfil" /></p>
+    </picture>
+    
+    <section id="datos_personales">
+      <h3 style="padding-left:0px">Datos personales</h3>
+      <p><b>Nombre: </b>Raúl Cosme Fulanito</p>
+      <p><b>Dirección: </b>Ernesto Padilla 670</p>
+      <p style="text-indent:82px">(4001) Las Talitas - Tucumán - Argentina</p>
+      <p><b>Email: </b><a href="mailto:cosmerfulanito@gmail.com" title="e-mail falso">cosmerfulanito@gmail.com</a></p>                  
+      <p><b>Teléfono: </b>699 123 007</p>
+      <p><b>LinkedIn: </b><a href="https://www.linkedin.com/cosmefula/" title="Link falso" target="_blank">linkedin.com/cosmefula</a></p>       
+    </section>
+  </section>
+  
+  <section id="perfil">
+    <h3>Perfil Profesional</h3>
+    <p class="parrafo_perfil">Biólogo especializado en el sector industrial y ambiental con 4 años de 
+      experiencia en el mercado de la alimentación y productos cosméticos. Hasta la fecha he 
+      formado parte de equipos de análisis de materias y productos con fines de comercialización  </p>
+  </section>  
+
+  <section id="formacion">
+    <h3>Formación académica</h3>
+    <div class="titulacion">
+      <p class="titulo">- Máster en Biología Industrial y Ambiental</p>
+      <p class="lugar">Universidad Nacional de Buenos Aires</p>
+      <p class="anio">Septiembre de 2014 - Mayo de 2016</p>
+    </div>
+    <div class="titulacion">
+      <p class="titulo">- Grado en Biología</p>
+      <p class="lugar">Universidad Nacional de Tucumán</p>
+      <p class="anio">Septiembre de 2010 - Junio de 2014</p> 
+    </div>
+  </section>
+  
+  <section id="experiencia">
+    <h3>Experiencia Laboral</h3>
+    <p class="titulo">- Técnico de laboratorio de calidad</p>
+    <p class="lugar">Laboratorios Maverick, S.L.U., Rosario</p>
+    <p class="anio">Septiembre de 2018 - Enero de 2023</p>
+    <ul>
+       <li>Análisis microbiológicos sobre lotes de productos semielaborados y terminados, cumpliendo con las exigencias de calidad</li>
+       <li>Recogida y almacenamiento de muestras de más de 100 productos en la muestroteca</li>
+       <li>Planificación de reuniones mensuales con managers y proveedores</li>
+       <li>Elaboración de informes semanales y documentación sobre los resultados de los análisis</li>
+    </ul>
+    <p class="logros">Logros Clave: </p>
+    <ul>
+        <li>Aprobación de más 50 productos para su posterior comercialización</li>
+        <li>Aplicación de procesos productivos que redujeron la creación de residuos en un 15%</li>
+    </ul>
+
+    <p class="titulo">- Asistente de control de calidad</p>
+    <p class="lugar">Labolife, Buenos Aires</p>
+    <p class="anio">Mayo de 2016 - Agosto de 2018</p>
+    <ul>
+       <li>Ensayos de control de calidad de materias primas y productos semiterminados</li>
+       <li>Revisión de documentación para certificaciones de calidad IFS y BRC</li>
+       <li>Participación en la gestión de riesgos de calidad en un equipo de 5 técnicos</li>
+       <li>Calibración, verificación y mantenimiento de los equipos del departamento</li>
+    </ul>
+    <p class="logros">Logros Clave: </p>
+    <ul>
+        <li>Gestión de una muestroteca con más de 200 muestras</li>
+    </ul>
+  </section>
+  
+  <section id="publicaciones">
+    <h3>Publicaciones</h3>
+    <ul>
+      <li>Agricultura sostenible para el alimento de peces - AE Científicos (Octubre de 2018)</li>
+      <li>Nuevos materiales para el almacenamiento de químicos en la biología industrial - BioTech (Junio de 2017)</li>
+    </ul> 
+  </section>
+  
+  <section id="aptitudes">
+    <h3>Aptitudes</h3>
+    <ul>
+      <li>Análisis de datos</li>
+      <li>Gestión de muestras</li>
+      <li>Mantenimiento de laboratorios</li>
+      <li>Gestión de proyectos</li>
+      <li>Comunicación efectiva</li>
+      <li>Organización y método</li>
+    </ul>
+  </section>
+  
+  <section id="idiomas">
+    <h3>Idiomas</h3>
+    <ul>
+      <li>Inglés (B2)</li>
+      <li>Alemán (B1)</li>
+    </ul>
+  </section>
+  
+  <footer>
+    <p>Información acerca de esta página</p>
+
+    <button id="mi_boton" type="button" onclick="myFunction('seoculta', 'mi_boton')">Ocultar</button>
+
+    <p class="seoculta">Tanto la persona del presente CV como su información relacionada son ficticias, 
+      cualquier similitud con datos reales es pura coincidencia.
+    <p class="seoculta">Página web elaborada con el fin de cumplir con la consigna para la presentación del 
+      Trabajo Final Integrador del curso “Introducción | Primeros pasos en Front-end” - Ticmas Academy.</p>
+    <p class="seoculta">Autor de la página web: Federico Buriek</p>
+    <p class="seoculta">Fecha: Febrero de 2023</p>
+  </footer>
+
+</body>
+</html>
+
+
