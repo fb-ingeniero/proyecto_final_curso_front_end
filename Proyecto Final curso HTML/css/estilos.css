@@ -64,16 +64,16 @@ section::after {
 .titulo{
   font-family: Georgia;
   font-size:110%;
-  text-indent: 10px;
+  padding-inline-start: 10px;
 }
 .lugar{
-  text-indent: 10px;
+  padding-inline-start: 10px;
   font-style: italic;
   margin-top: -0.4em;
   margin-bottom: -0.2em;
 }
 .anio{
-     text-indent: 10px;
+     padding-inline-start: 10px;
      font-size: 90%;
      line-height: 0.7;
 }
